@@ -35,9 +35,9 @@ let package = Package(
                 "README.md",
                 "LICENSE"
             ],
-            resources: [
-                .copy("GCDWebUploader/GCDWebUploader.bundle"),
-            ],
+            // resources: [
+            //     .copy("GCDWebUploader/GCDWebUploader.bundle"),
+            // ],
             cSettings:[
                 .headerSearchPath("GCDWebServer/Core"),
                 .headerSearchPath("GCDWebServer/Requests"),
